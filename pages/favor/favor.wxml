@@ -7,8 +7,8 @@
 
 <!-- 3.动态展示列表数据 -->
 <view>
-  <block wx:for="{{ movies }}" wx:key="index">
-    <view>{{ index+1 }} - {{ item }}</view>
+  <block wx:for="{{ movies }}" wx:key="*this" wx:for-index="idx">
+    <view>{{ idx+1 }} - {{ item }}</view>
   </block>
 </view>
 
