@@ -2,7 +2,7 @@
 <view>------ input组件 ----</view>
 <input type="text" model:value="{{message}}"/>
 
-<view>----- scroll-view组件 -------</view>
+<view>---- scroll-view组件 -------</view>
 <!-- 上下滚动(y轴) -->
 <!-- <scroll-view class="container scroll-y" scroll-y>
   <block wx:for="{{viewColors}}" wx:key="*this">
