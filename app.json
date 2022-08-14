@@ -14,6 +14,7 @@
     "pages/09_learn_network/index",
     "pages/10_learn_api/index",
     "pages/11_learn_nav/index",
+    "pages/12_learn_login/index",
     "pages2/detail/detail"
   ],
   "permission": {

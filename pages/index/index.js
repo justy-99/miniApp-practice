@@ -13,7 +13,7 @@ Page({
       { name: "09_学习网络请求", path: "/pages/09_learn_network/index" },
       { name: "10_学习系统API", path: "/pages/10_learn_api/index" },
       { name: "11_学习页面导航", path: "/pages/11_learn_nav/index" },
-
+      { name: "12_学习登录流程", path: "/pages/12_learn_login/index" }
     ]
   },
   onBtnClick(event) {
