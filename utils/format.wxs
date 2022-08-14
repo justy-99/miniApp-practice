@@ -10,6 +10,7 @@ function calcPrice(books) {
 
 // 对count进行格式化
 function formatCount(count) {
+  // count = Number(count)
   var numCount = parseInt(count)
   if (numCount >= 100000000) {
     return (numCount / 100000000).toFixed(1) + "亿"
